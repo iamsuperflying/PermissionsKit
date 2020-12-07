@@ -1,0 +1,33 @@
+PODS:
+  - PermissionsKit (0.0.1):
+    - RxCocoa (= 6.0.0-rc.2)
+    - RxSwift (= 6.0.0-rc.2)
+  - RxCocoa (6.0.0-rc.2):
+    - RxRelay (= 6.0.0-rc.2)
+    - RxSwift (= 6.0.0-rc.2)
+  - RxRelay (6.0.0-rc.2):
+    - RxSwift (= 6.0.0-rc.2)
+  - RxSwift (6.0.0-rc.2)
+
+DEPENDENCIES:
+  - PermissionsKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  PermissionsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PermissionsKit: efe8d8611a5282ccf15ad1437dc32accf60de226
+  RxCocoa: 38445a25751be5907f52f7ea02c137f52ce2e7f2
+  RxRelay: b9e2483e83f46e4e7bf1234c6fe418e5c2eaf825
+  RxSwift: ada35be6643bedf6881cdbd6bbfb27aeea527670
+
+PODFILE CHECKSUM: 3544d199a29b7d71a92cfe739d54314f8dccdea2
+
+COCOAPODS: 1.10.0

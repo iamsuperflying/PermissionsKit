@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PermissionsKit_Example' do
+  pod 'PermissionsKit', :path => '../'
+
+  target 'PermissionsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
